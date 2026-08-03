@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node generate-lang-stats.js --user=jeddiot --out=lang-stats.svg
+          node generate-lang-stats.js --user=jeddyang --out=lang-stats.svg
 
       - name: Commit and push if changed
         run: |

@@ -33,9 +33,9 @@ const outPath = args.out || 'docs/languages.svg';
 const token = process.env.GITHUB_TOKEN || args.token || '';
 
 const excludedRepos = new Set([
-  'jeddiot/calisthenics-blog',
-  'jeddiot/staggered-grid-lid-driven-cavity',
-  'jeddiot/jeddiot.github.io'
+  'jeddyang/calisthenics-blog',
+  'jeddyang/staggered-grid-lid-driven-cavity',
+  'jeddyang/jeddyang.github.io'
 ]);
 
 if (!repo && !user) {
