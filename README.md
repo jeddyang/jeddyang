@@ -1,4 +1,4 @@
-## Hi
+## hi
 
 ![Languages](https://raw.githubusercontent.com/jeddyang/jeddyang/main/lang-stats.svg)
 
